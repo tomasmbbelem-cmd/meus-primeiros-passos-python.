@@ -1,0 +1,16 @@
+programa.py
+my_name = input("What is your name?")
+age = int(input(("How old are you?")))
+birth_year = 2026 - age
+height = 1.66
+print(f"Hello, my name is {my_name} and im {age}")
+print(f"You were born in {birth_year}")
+if age >= 18:
+   print("you can drive!")
+else:
+  print("you cannot drive.")
+if my_name == "Tomás":
+   print("Hi! Tomás!")
+else:
+   print("Aren't you Tomas?")
+  
